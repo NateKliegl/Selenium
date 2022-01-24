@@ -11,7 +11,7 @@ async function test() {
   await driver.get("http://hudl.com/login");
   await driver.findElement(By.name("email")).sendKeys(Key.RETURN);
 
-  await driver.findElement(by.name("password")).sendKeys(Key.RETURN);
+  await driver.findElement(By.name("password")).sendKeys(Key.RETURN);
 }
 // calling the function
 test();
